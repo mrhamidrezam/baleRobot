@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="baleRobot — Complete Python SDK for the Bale Bot API">
+  <title>baleRobot — Complete Python SDK for the Bale Bot API</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1533"/>
+      <stop offset="0.55" stop-color="#0a1128"/>
+      <stop offset="1" stop-color="#131347"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4cebb4"/>
+      <stop offset="1" stop-color="#2e2e74"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cebb4"/>
+      <stop offset="0.5" stop-color="#7ee7ff"/>
+      <stop offset="1" stop-color="#8f9bff"/>
+    </linearGradient>
+    <radialGradient id="mintGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4cebb4" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#4cebb4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="indigoGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5b6cff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#5b6cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- پس‌زمینه -->
+  <rect width="1200" height="420" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="26" fill="url(#grid)"/>
+  <circle cx="1070" cy="50" r="280" fill="url(#indigoGlow)"/>
+  <circle cx="140" cy="400" r="250" fill="url(#mintGlow)"/>
+  <text x="905" y="330" font-family="Consolas, 'Cascadia Mono', monospace" font-size="300"
+        font-weight="700" fill="#ffffff" fill-opacity="0.035">{}</text>
+  <rect x="1" y="1" width="1198" height="418" rx="25" fill="none"
+        stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+
+  <!-- ربات -->
+  <g>
+    <line x1="175" y1="135" x2="175" y2="95" stroke="#4cebb4" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="175" cy="86" r="13" fill="#4cebb4"/>
+    <rect x="76" y="185" width="20" height="48" rx="10" fill="#4cebb4"/>
+    <rect x="254" y="185" width="20" height="48" rx="10" fill="#4cebb4"/>
+    <rect x="95" y="135" width="160" height="140" rx="42" fill="url(#brand)"
+          stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="143" cy="196" r="18" fill="#ffffff"/>
+    <circle cx="207" cy="196" r="18" fill="#ffffff"/>
+    <circle cx="147" cy="200" r="8" fill="#0a1128"/>
+    <circle cx="211" cy="200" r="8" fill="#0a1128"/>
+    <path d="M143 234 Q175 258 207 234" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- متن -->
+  <text x="310" y="175" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="88"
+        font-weight="800" fill="url(#titleGrad)">baleRobot</text>
+  <text x="312" y="222" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="27"
+        fill="#9db2e6">Complete Python SDK for the Bale Bot API</text>
+  <text x="312" y="262" font-family="'Segoe UI', Tahoma, sans-serif" font-size="25"
+        fill="#6fe9c0">کتابخانه کامل پایتون برای API بازو (ربات‌ساز بله)</text>
+
+  <!-- چیپ‌ها -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#cfe0ff">
+    <rect x="300" y="305" width="300" height="52" rx="26" fill="#061026"
+          stroke="#4cebb4" stroke-opacity="0.55" stroke-width="2"/>
+    <text x="450" y="338" text-anchor="middle" font-family="Consolas, 'Cascadia Mono', monospace"
+          font-size="20" fill="#4cebb4">pip install baleRobot</text>
+
+    <rect x="624" y="305" width="160" height="52" rx="26" fill="#101a3d" stroke="#ffffff" stroke-opacity="0.16"/>
+    <text x="704" y="338" text-anchor="middle">async + sync</text>
+
+    <rect x="808" y="305" width="150" height="52" rx="26" fill="#101a3d" stroke="#ffffff" stroke-opacity="0.16"/>
+    <text x="883" y="338" text-anchor="middle">fully typed</text>
+
+    <rect x="982" y="305" width="158" height="52" rx="26" fill="#101a3d" stroke="#ffffff" stroke-opacity="0.16"/>
+    <text x="1061" y="338" text-anchor="middle">Python 3.10+</text>
+  </g>
+</svg>

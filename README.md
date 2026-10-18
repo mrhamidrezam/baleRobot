@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="baleRobot — Complete Python SDK for the Bale Bot API" width="100%">
+</p>
+
 <div dir="rtl">
 
 # baleRobot

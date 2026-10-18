@@ -9,6 +9,8 @@ on:
 
 permissions:
   contents: read
+  # برای Trusted Publisher (OIDC) در PyPI ضروری است
+  id-token: write
 
 jobs:
   build-and-publish:

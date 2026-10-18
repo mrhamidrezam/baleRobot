@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="baleRobot logo">
+  <title>baleRobot</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4cebb4"/>
+      <stop offset="1" stop-color="#2e2e74"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.3" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="118" fill="url(#shine)"/>
+
+  <!-- آنتن -->
+  <line x1="256" y1="172" x2="256" y2="112" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="256" cy="96" r="26" fill="#4cebb4" stroke="#ffffff" stroke-width="9"/>
+
+  <!-- گوش‌ها -->
+  <rect x="94" y="236" width="40" height="86" rx="20" fill="#ffffff"/>
+  <rect x="378" y="236" width="40" height="86" rx="20" fill="#ffffff"/>
+
+  <!-- سر -->
+  <rect x="126" y="172" width="260" height="212" rx="58" fill="#ffffff"/>
+
+  <!-- چشم‌ها -->
+  <circle cx="198" cy="258" r="31" fill="#1b1b5e"/>
+  <circle cx="314" cy="258" r="31" fill="#1b1b5e"/>
+  <circle cx="207" cy="248" r="10" fill="#ffffff"/>
+  <circle cx="323" cy="248" r="10" fill="#ffffff"/>
+
+  <!-- لبخند -->
+  <path d="M188 324 Q256 378 324 324" fill="none" stroke="#1b1b5e" stroke-width="18" stroke-linecap="round"/>
+</svg>
