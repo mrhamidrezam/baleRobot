@@ -1,0 +1,80 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "baleRobot"
+dynamic = ["version"]
+description = "کتابخانه کامل پایتون برای API بازو (ربات‌ساز پیام‌رسان بله) | Complete Python SDK for the Bale Bot API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Hamidreza", email = "h4midrezam@gmail.com" }]
+keywords = [
+    "bale",
+    "bot",
+    "api",
+    "sdk",
+    "messenger",
+    "async",
+    "بازو",
+    "بله",
+    "ربات",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed",
+]
+dependencies = ["httpx>=0.25,<1"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "anyio>=4.0"]
+dev = ["pytest>=8.0", "anyio>=4.0", "ruff>=0.8", "build>=1.2"]
+
+[project.urls]
+Homepage = "https://github.com/mrhamidrezam/baleRobot"
+Repository = "https://github.com/mrhamidrezam/baleRobot"
+Documentation = "https://github.com/mrhamidrezam/baleRobot#readme"
+Issues = "https://github.com/mrhamidrezam/baleRobot/issues"
+Changelog = "https://github.com/mrhamidrezam/baleRobot/blob/main/CHANGELOG.md"
+
+[tool.hatch.version]
+path = "src/baleRobot/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/baleRobot"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/tests",
+    "/examples",
+    "/README.md",
+    "/README.fa.md",
+    "/CHANGELOG.md",
+    "/LICENSE",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["error::DeprecationWarning:baleRobot.*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "C4", "SIM", "RUF"]
+# مستندات و کامنت‌های این پروژه عمداً فارسی‌اند.
+ignore = ["RUF001", "RUF002", "RUF003"]
