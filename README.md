@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="baleRobot — Complete Python SDK for the Bale Bot API" width="100%">
+  <img src="https://raw.githubusercontent.com/mrhamidrezam/baleRobot/main/assets/banner.svg" alt="baleRobot — Complete Python SDK for the Bale Bot API" width="100%">
 </p>
 
 <div dir="rtl">
@@ -13,7 +13,7 @@
 
 کتابخانه‌ی کامل و تایپ‌شده‌ی پایتون برای **API بازو** (ربات‌ساز پیام‌رسان بله) — هم نسخه‌ی همزمان و هم ناهمگام، با پوشش **۱۰۰٪ مستندات رسمی**.
 
-> 📄 نسخه‌ی فارسی این سند: [README.fa.md](./README.fa.md)
+> 📄 نسخه‌ی فارسی این سند: [README.fa.md](https://github.com/mrhamidrezam/baleRobot/blob/main/README.fa.md)
 
 </div>
 
@@ -249,9 +249,9 @@ pytest
 ## Publishing (maintainers)
 
 Releases are published to PyPI automatically through **Trusted Publishing** (OIDC) when a
-GitHub Release is published — see [`.github/workflows/publish.yml`](./.github/workflows/publish.yml).
+GitHub Release is published — see [`.github/workflows/publish.yml`](https://github.com/mrhamidrezam/baleRobot/blob/main/.github/workflows/publish.yml).
 Bump `src/baleRobot/_version.py`, tag the commit as `vX.Y.Z`, then publish the release.
 
 ## License
 
-[MIT](./LICENSE) © Hamidreza (mrhamidrezam)
+[MIT](https://github.com/mrhamidrezam/baleRobot/blob/main/LICENSE) © Hamidreza (mrhamidrezam)

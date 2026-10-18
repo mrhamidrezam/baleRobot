@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="baleRobot — Complete Python SDK for the Bale Bot API" width="100%">
+  <img src="https://raw.githubusercontent.com/mrhamidrezam/baleRobot/main/assets/banner.svg" alt="baleRobot — Complete Python SDK for the Bale Bot API" width="100%">
 </p>
 
 <div dir="rtl">
@@ -282,4 +282,4 @@ pytest
 
 ## لایسنس
 
-[MIT](./LICENSE) © Hamidreza (mrhamidrezam)
+[MIT](https://github.com/mrhamidrezam/baleRobot/blob/main/LICENSE) © Hamidreza (mrhamidrezam)
